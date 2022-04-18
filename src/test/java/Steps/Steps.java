@@ -18,7 +18,7 @@ public class Steps {
 
 	@Dado("^selecione o campo abrir conta$")
 	public void selecione_o_campo_abrir_conta() throws Throwable {
-	    
+	    m.clicar(e.getBtnAbrirconta());
 	}
 
 	@Dado("^selecione o tipo de pessoa fisica$")
